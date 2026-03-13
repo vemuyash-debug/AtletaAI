@@ -1,0 +1,39 @@
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.price-current {
+  font-weight: 500;
+}
+
+.price-current-sm {
+  font-size: 0.875rem;
+}
+
+.price-current-md {
+  font-size: 1rem;
+}
+
+.price-current-lg {
+  font-size: 1.25rem;
+}
+
+.price-discount {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+.price-discount-sm {
+  font-size: 0.75rem;
+}
+
+.price-discount-md {
+  font-size: 0.875rem;
+}
+
+.price-discount-lg {
+  font-size: 1rem;
+}
