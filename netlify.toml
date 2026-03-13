@@ -1,0 +1,11 @@
+# Netlify config for AtletaAI (app lives in ecommerce-website)
+[build]
+  base    = "ecommerce-website"
+  command = "npm run build"
+  publish = "dist"
+
+# SPA: serve index.html for client-side routes
+[[redirects]]
+  from = "/*"
+  to   = "/index.html"
+  status = 200
