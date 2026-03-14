@@ -25,7 +25,7 @@ const Login = () => {
       // Show success message
       toast({
         title: "Login Successful",
-        description: "Welcome back to our store!",
+        description: "Welcome to AtletaAI!",
       });
       navigate('/home');
     }, 1500);
@@ -35,8 +35,8 @@ const Login = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-12">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold">Welcome back</h2>
-          <p className="text-muted-foreground mt-2">Sign in to your account to continue</p>
+          <h2 className="text-3xl font-bold">Welcome to AtletaAI</h2>
+          <p className="text-muted-foreground mt-2">Sign in or register to go to the home page</p>
         </div>
         
         <Card>

@@ -37,9 +37,9 @@ const Signup = () => {
       // Show success message
       toast({
         title: "Account created successfully",
-        description: "Welcome to our store!",
+        description: "Welcome to AtletaAI!",
       });
-      navigate('/');
+      navigate('/home');
     }, 1500);
   };
 
@@ -47,8 +47,8 @@ const Signup = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-12">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold">Create an account</h2>
-          <p className="text-muted-foreground mt-2">Sign up to get started</p>
+          <h2 className="text-3xl font-bold">Welcome to AtletaAI</h2>
+          <p className="text-muted-foreground mt-2">Sign in or register to go to the home page</p>
         </div>
         
         <Card>
